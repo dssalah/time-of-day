@@ -75,6 +75,26 @@
     document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
       
     document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+
+	let myDate = new Date();
+	let myHour = myDate.getHours();
+	let myGreeting = "";
+
+
+	if(myHour > 12){
+		//alert("Good afternoon!");
+		myGreeting =  "Good Afternoon!";
+	}
+	else{
+		alert("Not afternoon!");
+		myGreeting =  "Not Afternoon!";
+	}
+
+	console.log(myGreeting);
+
+
+
+
  </script>
 </body>
 </html>
