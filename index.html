@@ -82,15 +82,18 @@
 	let myDate = new Date();
 	let myHour = myDate.getHours();
 	let myGreeting = "";
+	let myColor = "";
 
 
 	if(myHour > 12){
 		//alert("Good afternoon!");
-		myGreeting =  "Good Afternoon!";
+		myGreeting = "Good Afternoon!";
+		myColor = "green";
 	}
 	else{
 		alert("Not afternoon!");
-		myGreeting =  "Not Afternoon!";
+		myGreeting = "Not Afternoon!";
+		myColor = "white";
 	}
 
 	//console.log(myGreeting);
