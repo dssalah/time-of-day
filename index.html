@@ -96,19 +96,25 @@
 	let myColor = "";
 	let myPic =" ";
 
+	//DATA FOR TESTING - REMOVE NEXT LINE!!
+	myHour= 7;
 
-	if(myHour > 12){
-		alert("Good afternoon!");
-		myGreeting = "Good Afternoon!";
-		myColor = "green";
-		myPic = "afternoon.jpg";
-	}
-	else{
-		alert("Not afternoon!");
-		myGreeting = "Not Afternoon!";
-		myColor = "white";
-		myPic = "";
-	}
+	if(myHour >= 5 && myHour < 12){
+       //alert("Good Afternoon!");
+       myGreeting = "Good Morning!";
+       myColor = "orange";
+       myPic = "morning.jpg";
+   } else if(myHour >= 12 && myHour < 18){
+       myGreeting = "Good Afternoon!";
+       myColor = "green";
+       myPic = "afternoon.jpg";
+   }else{
+       //alert("NOT Afternoon!");
+       myGreeting = "NOT Afternoon!";
+       myColor = "white";
+       myPic = "";
+   }
+
     //add the path to myPic
 	myPic = "images/" + myPic;
 
