@@ -1,0 +1,26 @@
+html {
+    background-color: rgb(251, 251, 251);
+    height: 100%;
+
+}
+#container {
+    height: 63px;
+    width: 933px;
+    background-color: rgb(216, 219, 184);
+    display:flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #050505 
+}
+
+#output {
+    font-size: 25px;
+    text-align: center;
+}
+
+#date {
+    font-size: 25px;
+    text-align: center;
+}
